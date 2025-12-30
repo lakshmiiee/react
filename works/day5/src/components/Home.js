@@ -17,7 +17,7 @@ function Home() {
                     </li>);
                 })}
             </ul>
-            <button onClick={() => navigate("/student/Lakshmi")}>
+            <button class="btn btn-primary" onClick={() => navigate("/student/Lakshmi")}>
             Go to Default Student
             </button>
         </div>
